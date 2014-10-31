@@ -1,0 +1,186 @@
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 100;
+ src: local('Roboto Thin'), local('Roboto-Thin'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+html,body {
+ background: #000;
+ background-image: url('../content/images/background.png');
+ background-size: 105%;
+ font-family: "Roboto", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/* font-weight: 600;*/
+ overflow: auto;
+ -webkit-user-select: text;
+}
+
+h2 {
+	text-align: center;
+}
+
+.backface {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.info-background {
+  background-color: #00FFCC;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.voting-list {
+  border: 2px solid #fff;
+}
+
+.application {
+  overflow: auto;
+	background-color: white;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.task-background {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.task-status {
+  line-height: 42px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.task-from {
+  margin-top: 10px;
+  margin-left: 45px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.task-subject {
+  margin-left: 55px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.task-actions {
+  margin-left: 45px;
+  margin-top: 60px;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.task-received {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.feedHeader {
+  padding-left: 15px;
+  font-weight: 500;
+  background-color: whitesmoke;
+  color: #9e9e9e;
+  line-height: 65px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #FFDB58;
+  font-size: 16px;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.emptyFeed {
+  padding-left: 5px;
+  background-color: white;
+  line-height: 50px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  font-family: "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.feedHeaderIcon {
+  line-height: 70px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.scrollView {
+	background: linear-gradiant(#FFFFCC, #FFF, #FFFFCC);
+	padding-left: 10px;
+	font-size: 80%;
+}
+
+@font-face {
+    font-family: BigNoodle;
+    src: url(./big_noodle_titling.ttf);
+}
+
+.website-title {
+	font-size: 80px;
+	line-height: 150px;
+	text-align: center;
+	font-family: BigNoodle;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.importantInfo {
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.youtube {
+	box-shadow: 10px 10px 10px #888888;
+  text-align: center;
+}
+
+.donate {
+	position: initial;
+	border: 2px solid blue;
+	 box-shadow: 5px 5px 5px #888888;
+	 border-radius: 5px;
+}
+
+.navBar {
+	border: 1px solid black;
+	background: white;
+}
+
+.button {
+	font-family: "Helvetica";
+  text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+	color: #000;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.backfaceVisibility {
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    backface-visibility: visible;
+}
+/*Lets start with the cloud formation rather*/
+
+/*The container will also serve as the SKY*/

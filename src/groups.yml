@@ -1,0 +1,129 @@
+default: player
+groups:
+  gold:
+    permissions:
+    - airjump.nohunger
+    - airjump.use
+    - blazingspeed.use
+    - chestlock.limit.chest.2
+    - commandcooldown.tpa600
+    - essentials.afk
+    - essentials.jump
+    - essentials.tpa
+    groups:
+    - citizen
+    meta:
+      prefix: '&6Gold &dDonator &6'
+  citizen:
+    permissions:
+    - commandcooldown.home600
+    - essentials.break.trade
+    - essentials.create.trade
+    - ^group.dweller
+    groups:
+    - dweller
+    meta:
+      prefix: '&aCitizen &f'
+  obsidian:
+    permissions:
+    - airjump.nohunger
+    - airjump.use
+    - chestlock.limit.chest.2
+    - commandcooldown.tpa400
+    - essentials.afk
+    - essentials.jump
+    - essentials.tpa
+    groups:
+    - gold
+    meta:
+      prefix: '&fObsidian &dDonator &f'
+  trusted:
+    permissions:
+    - commandcooldown.home500
+    - ^group.citizen
+    groups:
+    - citizen
+    meta:
+      prefix: '&6Trusted &f'
+  moderator:
+    permissions:
+    - bukkit.command.ban.player
+    - commandcooldown.back300
+    - essentials.ban
+    - essentials.banip
+    - essentials.kick
+    - essentials.tpa
+    - ^group.trusted
+    groups:
+    - trusted
+    meta:
+      prefix: '&bModerator &f'
+  admin:
+    permissions:
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.kill
+    - bukkit.command.list
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+    - buycraft.admin
+    - ^group.moderator
+    groups:
+    - moderator
+    meta:
+      prefix: '&cAdministrator &f'
+  dweller:
+    permissions:
+    - commandcooldown.home700
+    - ^group.player
+    groups:
+    - player
+    meta:
+      prefix: '&3Dweller &f'
+  player:
+    permissions:
+    - bukkit.command.help
+    - chestlock.coowner
+    - chestlock.limit.chest.1
+    - chestlock.limit.dispencer.0
+    - chestlock.limit.door.0
+    - chestlock.limit.furnace.0
+    - chestlock.list.clear
+    - chestlock.list.owner
+    - chestlock.lock
+    - commandcooldown.back1200
+    - commandcooldown.delhome900
+    - commandcooldown.home900
+    - commandcooldown.sethome1800
+    - commandcooldown.spawn600
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.ban.notify
+    - essentials.delhome
+    - essentials.help
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.kits.tools
+    - essentials.msg
+    - essentials.msg.multiple
+    - essentials.pay
+    - essentials.pay.multiple
+    - essentials.rules
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.tpaccept
+    - essentials.use.trade
+    - factions.home
+    - factions.money.balance
+    - factions.money.balance.any
+    - factions.money.deposit
+    - minecraft.command.list
+    - worldedit.navigation.unstuck
+    groups: []
+    meta:
+      prefix: '&7Player &f'
